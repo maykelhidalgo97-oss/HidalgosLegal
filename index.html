@@ -1,12 +1,284 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidalgo's Legal & Consulting Group </title>
+    <title>Hidalgo's - Legal & Consulting Group</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- Barra Superior -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-info">
+                <span>📧 <a href="mailto:hidalgoslegal@outlook.com">hidalgoslegal@outlook.com</a></span>
+                <span>📞 <a href="https://wa.me/593969887218" target="_blank">+593 96 988 7218</a></span>
+            </div>
+            <div class="top-slogan">
+                <span>Estrategia • Liderazgo • Resultados</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegación Principal -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo-brand">
+                <img src="Hidalgos_Logo_Oficial.jpg" alt="Logo Hidalgo's" class="brand-logo-img">
+                <div class="brand-text">
+                    <span class="brand-title">HIDALGO'S</span>
+                    <span class="brand-subtitle">LEGAL & CONSULTING GROUP</span>
+                </div>
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios-resumen">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto" class="btn-nav-action">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero / Inicio de Alto Impacto -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <img src="Hidalgos_Logo_Oficial.jpg" alt="Logo Hidalgo's" class="hero-logo-large">
+            <span class="hero-badge">Firma Profesional Multidisciplinaria de Alta Gerencia</span>
+            <h1>Soluciones Integrales: Legal, Contable y Comercio Exterior</h1>
+            <p>Protegemos, estructuramos y proyectamos su empresa al más alto nivel con un respaldo técnico seguro, serio y orientado a resultados.</p>
+            <div class="hero-cta-group">
+                <a href="https://wa.me/593969887218" target="_blank" class="btn btn-gold">
+                    <span>💬 Consulta Directa por WhatsApp</span>
+                </a>
+                <a href="#servicios-resumen" class="btn btn-outline">
+                    <span>Explorar Áreas de Servicio</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resumen de Servicios -->
+    <section id="servicios-resumen" class="services-summary">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Pilares de Especialización</h2>
+                <div class="gold-divider"></div>
+                <p>Haga clic en el botón de acción de cada servicio para conocer en detalle todas nuestras soluciones</p>
+            </div>
+
+            <div class="services-cards-grid">
+                
+                <!-- Servicio 1: Jurídico -->
+                <div class="card-service">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80" alt="Servicios Jurídicos">
+                        <span class="img-overlay-tag">⚖️ Legal</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Servicios Jurídicos Integrales</h3>
+                        <p>Asesoría legal preventiva, defensa técnica especializada, patrocinio judicial y representación jurídica corporativa y civil.</p>
+                        <a href="#servicio-juridico" class="btn-card-action">
+                            <span>Ver Todos los Servicios Legales &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Servicio 2: Contable y Tributario -->
+                <div class="card-service featured-card">
+                    <div class="featured-ribbon">Destacado</div>
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" alt="Servicios Contables">
+                        <span class="img-overlay-tag">📊 Contable y Fiscal</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Servicios Contables y Tributarios</h3>
+                        <p>Contabilidad general, declaraciones tributarias precisas, cumplimiento fiscal riguroso y auditoría interna/externa.</p>
+                        <a href="#servicio-contable" class="btn-card-action">
+                            <span>Ver Todos los Servicios Contables &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Servicio 3: Comercio Exterior -->
+                <div class="card-service">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Comercio Exterior">
+                        <span class="img-overlay-tag">🚢 Comercio Exterior</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Servicios Empresariales y Comercio Exterior</h3>
+                        <p>Gestión empresarial integral, formalización de negocios, estructuración de compañías y procesos de importación y exportación.</p>
+                        <a href="#servicio-comercio" class="btn-card-action">
+                            <span>Ver Comercio Exterior Completo &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Detallada de los 3 Servicios -->
+    <section id="detalles-servicios" class="detailed-services-section">
+        <div class="container">
+            
+            <!-- Detalle 1: Servicios Jurídicos -->
+            <div id="servicio-juridico" class="service-detail-block">
+                <div class="detail-grid">
+                    <div class="detail-image-box">
+                        <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=900&q=80" alt="Despacho Jurídico y Leyes">
+                    </div>
+                    <div class="detail-info-box">
+                        <span class="detail-badge">⚖️ Área Legal</span>
+                        <h2>Servicios Jurídicos Integrales</h2>
+                        <p class="detail-lead">Protegemos su patrimonio y derechos corporativos con estricto rigor técnico y judicial.</p>
+                        <div class="subservices-list">
+                            <div class="subservice-item">
+                                <h4>Asesoría Legal Preventiva y Corporativa</h4>
+                                <p>Elaboración de contratos, blindaje patrimonial y dictámenes jurídicos especializados.</p>
+                            </div>
+                            <div class="subservice-item">
+                                <h4>Defensa Técnica y Patrocinio Judicial</h4>
+                                <p>Representación letrada ante juzgados, tribunales de justicia y procesos contenciosos.</p>
+                            </div>
+                            <div class="subservice-item">
+                                <h4>Representación Jurídica Institucional</h4>
+                                <p>Gestión y trámites ante entidades públicas, ministerios y superintendencias.</p>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/593969887218?text=Hola,%20deseo%20contratar%20los%20Servicios%20Jur%C3%ADdicos" target="_blank" class="btn btn-gold">
+                            Contratar Servicios Jurídicos
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detalle 2: Servicios Contables -->
+            <div id="servicio-contable" class="service-detail-block reverse">
+                <div class="detail-grid">
+                    <div class="detail-info-box">
+                        <span class="detail-badge">📊 Área Financiera</span>
+                        <h2>Servicios Contables y Tributarios</h2>
+                        <p class="detail-lead">Optimice sus obligaciones fiscales y mantenga una contabilidad transparente y al día.</p>
+                        <div class="subservices-list">
+                            <div class="subservice-item">
+                                <h4>Contabilidad General y Financiera</h4>
+                                <p>Registro contable estricto y elaboración de estados financieros bajo normativa vigente.</p>
+                            </div>
+                            <div class="subservice-item">
+                                <h4>Declaraciones Tributarias y Cumplimiento Fiscal</h4>
+                                <p>Cálculo y presentación oportuna de impuestos (IVA, Renta) para evitar sanciones.</p>
+                            </div>
+                            <div class="subservice-item">
+                                <h4>Auditoría Integral y Revisoría</h4>
+                                <p>Evaluación de procesos financieros para garantizar la eficiencia económica de la empresa.</p>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/593969887218?text=Hola,%20deseo%20contratar%20los%20Servicios%20Contables" target="_blank" class="btn btn-gold">
+                            Contratar Servicios Contables
+                        </a>
+                    </div>
+                    <div class="detail-image-box">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Análisis Financiero y Tributario">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detalle 3: Comercio Exterior -->
+            <div id="servicio-comercio" class="service-detail-block">
+                <div class="detail-grid">
+                    <div class="detail-image-box">
+                        <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=900&q=80" alt="Logística y Comercio Global">
+                    </div>
+                    <div class="detail-info-box">
+                        <span class="detail-badge">🚢 Comercio Global</span>
+                        <h2>Servicios Empresariales y Comercio Exterior</h2>
+                        <p class="detail-lead">Expandimos las fronteras de su negocio con operaciones aduaneras seguras y eficientes.</p>
+                        <div class="subservices-list">
+                            <div class="subservice-item">
+                                <h4>Gestión Empresarial y Formalización de Negocios</h4>
+                                <p>Constitución de compañías, permisos operativos y estructuración societaria.</p>
+                            </div>
+                            <div class="subservice-item">
+                                <h4>Importación y Exportación Aduanera</h4>
+                                <p>Asesoría en regímenes aduaneros, clasificación arancelaria y logística internacional.</p>
+                            </div>
+                            <div class="subservice-item">
+                                <h4>Consultoría Estratégica Comercial</h4>
+                                <p>Planes de viabilidad de negocios y optimización de cadenas de suministro globales.</p>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/593969887218?text=Hola,%20deseo%20contratar%20los%20Servicios%20de%20Comercio%20Exterior" target="_blank" class="btn btn-gold">
+                            Contratar Comercio Exterior
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección Nosotros (Reseña Profesional Multidisciplinaria) -->
+    <section id="nosotros" class="about-section">
+        <div class="container about-container">
+            <img src="Hidalgos_Logo_Oficial.jpg" alt="Logo Hidalgo's" class="about-logo">
+            <h2>Sobre Hidalgo's Legal & Consulting Group</h2>
+            <div class="gold-divider"></div>
+            <p class="about-description">
+                Somos una <strong>firma profesional multidisciplinaria</strong> consolidada bajo los más altos estándares de <strong>seguridad y seriedad institucional</strong>. Nuestro propósito fundamental es anticiparnos y cumplir con exigencia las necesidades estratégicas de nuestros clientes, unificando la excelencia jurídica, el rigor contable-tributario y la visión global del comercio exterior en un solo lugar de absoluta confianza.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="contact-box">
+                <h2>¿Listo para empezar? Contáctenos</h2>
+                <p>Nuestros expertos están listos para brindarle la asesoría seria y segura que su empresa merece.</p>
+                <div class="contact-buttons-grid">
+                    <a href="https://wa.me/593969887218" target="_blank" class="contact-btn whatsapp-btn">
+                        <span class="icon">💬</span>
+                        <div class="text">
+                            <small>WhatsApp Directo</small>
+                            <strong>+593 96 988 7218</strong>
+                        </div>
+                    </a>
+                    <a href="mailto:hidalgoslegal@outlook.com" class="contact-btn email-btn">
+                        <span class="icon">✉️</span>
+                        <div class="text">
+                            <small>Correo Electrónico</small>
+                            <strong>hidalgoslegal@outlook.com</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <img src="Hidalgos_Logo_Oficial.jpg" alt="Logo Hidalgo's" class="footer-logo">
+            <h3 class="footer-motto">Legal - Liderazgo - Resultados</h3>
+            <p class="footer-rights">&copy; Hidalgo's Legal & Consulting Group. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp Visible y Funcional -->
+    <a href="https://wa.me/593969887218" class="whatsapp-float" target="_blank" aria-label="WhatsApp Directo">
+        <svg viewBox="0 0 32 32" class="whatsapp-icon">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 8.138-2.135c2.373 1.282 5.050 1.957 7.862 1.957 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.323c-2.43 0-4.812-0.653-6.892-1.888l-0.494-0.293-5.125 1.343 1.368-5.093-0.322-0.512c-1.353-2.155-2.068-4.653-2.068-7.213 0-7.351 5.979-13.33 13.33-13.33 7.35 0 13.33 5.979 13.33 13.33 0 7.351-5.98 13.33-13.33 13.33zM22.562 19.377c-0.358-0.179-2.119-1.046-2.446-1.165s-0.566-0.179-0.806 0.179c-0.239 0.358-0.925 1.165-1.134 1.404s-0.418 0.269-0.776 0.089c-0.358-0.179-1.513-0.558-2.882-1.778-1.066-0.95-1.786-2.124-1.995-2.482s-0.022-0.552 0.157-0.73c0.161-0.161 0.358-0.418 0.537-0.627s0.239-0.358 0.358-0.597c0.119-0.239 0.060-0.448-0.030-0.627s-0.806-1.94-1.104-2.657c-0.291-0.699-0.587-0.604-0.806-0.615l-0.687-0.012c-0.239 0-0.627 0.089-0.955 0.448s-1.254 1.224-1.254 2.985c0 1.761 1.283 3.463 1.463 3.702s2.525 3.856 6.118 5.409c0.855 0.369 1.523 0.59 2.044 0.755 0.86 0.273 1.642 0.234 2.261 0.142 0.691-0.103 2.119-0.866 2.418-1.701s0.298-1.552 0.209-1.701c-0.090-0.149-0.328-0.239-0.687-0.418z"></path>
+        </svg>
+    </a>
+
 </body>
 </html>
